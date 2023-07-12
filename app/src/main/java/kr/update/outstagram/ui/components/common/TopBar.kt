@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components
+package kr.update.outstagram.ui.components.common
 
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row

@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.icons
+package kr.update.outstagram.ui.components.common.icons
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.Icon

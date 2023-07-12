@@ -12,14 +12,13 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import kr.update.outstagram.ui.components.TopBar
-import kr.update.outstagram.ui.components.icons.BackCaretIcon
-import kr.update.outstagram.ui.components.icons.MoreIcon
-import kr.update.outstagram.ui.components.icons.NotificationIcon
-import kr.update.outstagram.ui.components.icons.VerifiedLabelIcon
+import kr.update.outstagram.ui.components.common.TopBar
+import kr.update.outstagram.ui.components.common.icons.BackCaretIcon
+import kr.update.outstagram.ui.components.common.icons.MoreIcon
+import kr.update.outstagram.ui.components.common.icons.NotificationIcon
+import kr.update.outstagram.ui.components.common.icons.VerifiedLabelIcon
+import kr.update.outstagram.ui.theme.Typography
 
 @Composable
 fun ProfileTemplate(content: @Composable () -> Unit) {
@@ -39,9 +38,8 @@ fun ProfileTemplate(content: @Composable () -> Unit) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        "username", style = TextStyle(
-                            fontWeight = FontWeight.Bold
-                        )
+                        "username",
+                        style = Typography.h3
                     )
                     Spacer(modifier = Modifier.width(4.dp))
                     VerifiedLabelIcon(Modifier.size(16.dp))

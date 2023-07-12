@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.post
+package kr.update.outstagram.ui.components.home.post
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.post
+package kr.update.outstagram.ui.components.home.post
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column
@@ -22,10 +22,10 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kr.update.outstagram.ui.components.avatar.AvatarCircle
-import kr.update.outstagram.ui.components.avatar.AvatarCircleSize
-import kr.update.outstagram.ui.components.icons.MoreIcon
-import kr.update.outstagram.ui.components.icons.VerifiedLabelIcon
+import kr.update.outstagram.ui.components.common.avatar.AvatarCircle
+import kr.update.outstagram.ui.components.common.avatar.AvatarCircleSize
+import kr.update.outstagram.ui.components.common.icons.MoreIcon
+import kr.update.outstagram.ui.components.common.icons.VerifiedLabelIcon
 import kr.update.outstagram.ui.theme.OutstagramTheme
 
 @Composable

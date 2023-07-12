@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.story
+package kr.update.outstagram.ui.components.home.story
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -17,8 +17,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kr.update.outstagram.data.users
 import kr.update.outstagram.model.User
-import kr.update.outstagram.ui.components.avatar.AvatarCircle
-import kr.update.outstagram.ui.components.avatar.AvatarCircleSize
+import kr.update.outstagram.ui.components.common.avatar.AvatarCircle
+import kr.update.outstagram.ui.components.common.avatar.AvatarCircleSize
 
 @Composable
 fun StoryUser(

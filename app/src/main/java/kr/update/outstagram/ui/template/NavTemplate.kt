@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import kr.update.outstagram.ui.components.NavBar
+import kr.update.outstagram.ui.components.common.NavBar
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable

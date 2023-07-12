@@ -6,13 +6,11 @@ import androidx.compose.material.ProvideTextStyle
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
 import kr.update.outstagram.R
 
 private val DarkColorPalette = darkColors(
@@ -67,11 +65,4 @@ fun OutstagramTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Compos
 
 val PrimaryTextStyle: TextStyle
     @Composable
-    get() = TextStyle(
-        fontSize = 14.sp,
-        fontFamily = NotoSansKR,
-        fontWeight = FontWeight.Normal,
-        platformStyle = PlatformTextStyle(
-            includeFontPadding = false
-        )
-    )
+    get() = Typography.body1

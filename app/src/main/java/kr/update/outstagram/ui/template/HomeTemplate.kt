@@ -13,12 +13,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import kr.update.outstagram.data.users
-import kr.update.outstagram.ui.components.TopBar
-import kr.update.outstagram.ui.components.icons.CaretDownIcon
-import kr.update.outstagram.ui.components.icons.LikeIcon
-import kr.update.outstagram.ui.components.icons.LogoTypographyIcon
-import kr.update.outstagram.ui.components.icons.ShareIcon
-import kr.update.outstagram.ui.components.story.StoryTray
+import kr.update.outstagram.ui.components.common.TopBar
+import kr.update.outstagram.ui.components.common.icons.CaretDownIcon
+import kr.update.outstagram.ui.components.common.icons.LikeIcon
+import kr.update.outstagram.ui.components.common.icons.LogoTypographyIcon
+import kr.update.outstagram.ui.components.common.icons.ShareIcon
+import kr.update.outstagram.ui.components.home.story.StoryTray
 
 @Composable
 fun HomeTemplate(content: @Composable () -> Unit) {

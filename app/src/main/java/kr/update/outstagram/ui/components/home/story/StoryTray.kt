@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.story
+package kr.update.outstagram.ui.components.home.story
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.avatar
+package kr.update.outstagram.ui.components.common.avatar
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

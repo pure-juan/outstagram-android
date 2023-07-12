@@ -1,4 +1,4 @@
-package kr.update.outstagram.ui.components.post
+package kr.update.outstagram.ui.components.home.post
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,9 +18,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kr.update.outstagram.ui.components.icons.CommentIcon
-import kr.update.outstagram.ui.components.icons.LikeIcon
-import kr.update.outstagram.ui.components.icons.ShareIcon
+import kr.update.outstagram.ui.components.common.icons.CommentIcon
+import kr.update.outstagram.ui.components.common.icons.LikeIcon
+import kr.update.outstagram.ui.components.common.icons.ShareIcon
 
 @Composable
 fun PostInfo() {
